@@ -4,14 +4,12 @@ using UnityEngine;
 
 public class cameraMove : MonoBehaviour
 {
-    public Camera cam1;
-    public Camera cam2;
-    public bool flag = true;
- 
- 
+	public bool flag = true;    
+	public Camera cam1;
+    	public Camera cam2;
+    
   void Start()
     {
-
         cam1.enabled = flag;
         cam2.enabled = !flag;
     }

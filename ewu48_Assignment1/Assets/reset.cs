@@ -16,7 +16,6 @@ public class reset : MonoBehaviour
 
     public void OnMouseOver()
     {
-
         if (Input.GetMouseButton(1)) //right click detection
         {
             gameObject.transform.position = start;

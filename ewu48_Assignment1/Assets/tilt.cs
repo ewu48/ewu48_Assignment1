@@ -15,15 +15,13 @@ public class tilt: MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-       
-            
+                   
     }
     void OnMouseOver()
     {
         if (Input.GetMouseButton(0))
         {
             transform.Rotate(3, 0, 2);
-        }
-           
+        }       
     }
 }
